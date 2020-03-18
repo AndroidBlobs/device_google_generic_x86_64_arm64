@@ -1,0 +1,279 @@
+
+# Audio
+vendor/lib/libaudiofoundation.so
+vendor/lib/soundfx/libaudiopreprocessing.so
+vendor/lib64/soundfx/libaudiopreprocessing.so
+
+# Audio-Hardware
+vendor/lib/hw/audio.primary.default.so
+vendor/lib/hw/audio.primary.goldfish.so
+vendor/lib/hw/audio.primary.goldfish_legacy.so
+vendor/lib/hw/audio.r_submix.default.so
+vendor/lib64/hw/audio.primary.default.so
+vendor/lib64/hw/audio.primary.goldfish.so
+vendor/lib64/hw/audio.primary.goldfish_legacy.so
+vendor/lib64/hw/audio.r_submix.default.so
+
+# Camera
+vendor/lib/hw/camera.goldfish.jpeg.so
+vendor/lib/hw/camera.goldfish.so
+vendor/lib/hw/camera.ranchu.jpeg.so
+vendor/lib/hw/camera.ranchu.so
+vendor/lib64/hw/camera.goldfish.jpeg.so
+vendor/lib64/hw/camera.goldfish.so
+vendor/lib64/hw/camera.ranchu.jpeg.so
+vendor/lib64/hw/camera.ranchu.so
+
+# DRM
+
+# DRM-Widevine
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
+vendor/lib/mediadrm/libdrmclearkeyplugin.so
+vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib64/libwvhidl.so
+vendor/lib64/mediadrm/libdrmclearkeyplugin.so
+vendor/lib64/mediadrm/libwvdrmengine.so
+
+# Display-Hardware
+vendor/lib/hw/android.hardware.graphics.mapper@3.0-impl.so
+vendor/lib/hw/gralloc.default.so
+vendor/lib/hw/hwcomposer.ranchu.so
+vendor/lib/libdrm.so
+vendor/lib64/hw/android.hardware.graphics.mapper@3.0-impl.so
+vendor/lib64/hw/gralloc.default.so
+vendor/lib64/hw/hwcomposer.ranchu.so
+vendor/lib64/libdrm.so
+
+# Fingerprint
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/lib/hw/fingerprint.ranchu.so
+vendor/lib64/hw/fingerprint.ranchu.so
+
+# GPS
+vendor/bin/hw/android.hardware.gnss@1.0-service
+vendor/etc/init/android.hardware.gnss@1.0-service.rc
+vendor/lib/hw/android.hardware.gnss@1.0-impl.so
+vendor/lib64/hw/android.hardware.gnss@1.0-impl.so
+
+# GPS-Hardware
+
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service.software
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.software.rc
+vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.software.xml
+
+# Google
+vendor/bin/hw/android.hardware.camera.provider@2.6-service-google
+vendor/etc/init/android.hardware.camera.provider@2.6-service-google.rc
+vendor/etc/vintf/manifest/android.hardware.camera.provider@2.6-service-google.xml
+vendor/lib/libgooglecamerahalutils.so
+vendor/lib/libgooglecamerahwl_impl.so
+vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-google.so
+vendor/lib64/libgooglecamerahal.so
+vendor/lib64/libgooglecamerahalutils.so
+vendor/lib64/libgooglecamerahwl_impl.so
+
+# Graphics
+vendor/lib/egl/libEGL_emulation.so
+vendor/lib/egl/libEGL_swiftshader.so
+vendor/lib/egl/libGLESv1_CM_emulation.so
+vendor/lib/egl/libGLESv1_CM_swiftshader.so
+vendor/lib/egl/libGLESv2_emulation.so
+vendor/lib/egl/libGLESv2_swiftshader.so
+vendor/lib/hw/vulkan.ranchu.so
+vendor/lib64/egl/libEGL_emulation.so
+vendor/lib64/egl/libEGL_swiftshader.so
+vendor/lib64/egl/libGLESv1_CM_emulation.so
+vendor/lib64/egl/libGLESv1_CM_swiftshader.so
+vendor/lib64/egl/libGLESv2_emulation.so
+vendor/lib64/egl/libGLESv2_swiftshader.so
+vendor/lib64/hw/vulkan.ranchu.so
+
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@4.0-service
+vendor/etc/init/android.hardware.keymaster@4.0-service.rc
+vendor/lib64/libkeymaster4.so
+vendor/lib64/libkeymaster4support.so
+vendor/lib64/libkeymaster_messages.so
+vendor/lib64/libkeymaster_portable.so
+vendor/lib64/libpuresoftkeymasterdevice.so
+
+# Keystore
+vendor/lib64/libkeystore-engine-wifi-hidl.so
+vendor/lib64/libkeystore-wifi-hidl.so
+
+# Listen
+
+# Media
+vendor/lib/libstagefright_soft_mpeg2dec.so
+
+# Media-Hardware
+vendor/lib/libstagefrighthw.so
+vendor/lib64/libstagefrighthw.so
+
+# Perf
+
+# Postprocessing
+
+# Power-Hardware
+vendor/bin/hw/android.hardware.power@1.1-service.ranchu
+vendor/etc/init/android.hardware.power@1.1-service.ranchu.rc
+vendor/lib/hw/power.default.so
+vendor/lib64/hw/power.default.so
+
+# QMI
+
+# Radio
+
+# Sensors
+vendor/lib/hw/sensors.ranchu.so
+vendor/lib64/hw/sensors.ranchu.so
+
+# Thermal
+vendor/bin/hw/android.hardware.thermal@2.0-service.mock
+vendor/etc/init/android.hardware.thermal@2.0-service.rc
+vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml
+
+# Time
+
+# Vibrator
+vendor/bin/hw/android.hardware.vibrator-service.example
+vendor/etc/init/vibrator-default.rc
+vendor/etc/vintf/manifest/vibrator-default.xml
+vendor/lib/hw/vibrator.default.so
+vendor/lib64/hw/vibrator.default.so
+
+# WiFi
+
+# rootdir
+vendor/bin/dhcpclient
+vendor/bin/execns
+vendor/bin/hostapd_nohidl
+vendor/bin/iw
+vendor/bin/netmgr
+vendor/bin/qemu-props
+vendor/bin/wifi_forwarder
+vendor/etc/fstab.ranchu
+vendor/etc/simulated_hostapd.conf
+
+# Misc
+vendor/bin/applypatch
+vendor/bin/boringssl_self_test32
+vendor/bin/boringssl_self_test64
+vendor/bin/chattr
+vendor/bin/createns
+vendor/bin/devmem
+vendor/bin/dumpsys
+vendor/bin/fsync
+vendor/bin/getconf
+vendor/bin/hw/android.hardware.atrace@1.0-service
+vendor/bin/hw/android.hardware.audio.service
+vendor/bin/hw/android.hardware.input.classifier@1.0-service.default
+vendor/bin/hw/android.hardware.power.stats@1.0-service.mock
+vendor/bin/hw/android.hardware.rebootescrow-service.default
+vendor/bin/hw/rild
+vendor/bin/i2cdetect
+vendor/bin/i2cdump
+vendor/bin/i2cget
+vendor/bin/i2cset
+vendor/bin/iconv
+vendor/bin/install
+vendor/bin/lsattr
+vendor/bin/nc
+vendor/bin/netcat
+vendor/bin/nproc
+vendor/bin/nsenter
+vendor/bin/readelf
+vendor/bin/test
+vendor/bin/unlink
+vendor/bin/unshare
+vendor/bin/uuidgen
+vendor/bin/watch
+vendor/etc/config/emu_camera_back.json
+vendor/etc/config/emu_camera_depth.json
+vendor/etc/config/emu_camera_front.json
+vendor/etc/init/android.hardware.atrace@1.0-service.rc
+vendor/etc/init/android.hardware.audio.service.rc
+vendor/etc/init/android.hardware.input.classifier@1.0-service.default.rc
+vendor/etc/init/android.hardware.power.stats@1.0-service.rc
+vendor/etc/init/boringssl_self_test.rc
+vendor/etc/init/rebootescrow-default.rc
+vendor/etc/init/rild.rc
+vendor/etc/init/vendor_flash_recovery.rc
+vendor/etc/primary_audio_policy_configuration.xml
+vendor/etc/surround_sound_configuration_5_0.xml
+vendor/lib/android.hardware.audio.common-util.so
+vendor/lib/android.hardware.audio.common@5.0-util.so
+vendor/lib/android.hardware.camera.provider@2.4-external.so
+vendor/lib/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib/android.hardware.graphics.composer@2.1-resources.so
+vendor/lib/hw/gps.goldfish.so
+vendor/lib/hw/gps.ranchu.so
+vendor/lib/libandroidemu.so
+vendor/lib/libavservices_minijail.so
+vendor/lib/libcbmanager.so
+vendor/lib/libGLESv1_enc.so
+vendor/lib/libGLESv2_enc.so
+vendor/lib/libgoldfish-ril.so
+vendor/lib/libgoldfish_codecs_common.so
+vendor/lib/libOpenglCodecCommon.so
+vendor/lib/libOpenglSystemCommon.so
+vendor/lib/libopus.so
+vendor/lib/libprotobuf-cpp-full-3.9.1.so
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib/libstagefright_amrnb_common.so
+vendor/lib/libstagefright_enc_common.so
+vendor/lib/libstagefright_flacdec.so
+vendor/lib/libstagefright_goldfish_avcdec.so
+vendor/lib/libstagefright_goldfish_vpxdec.so
+vendor/lib/libstagefright_softomx.so
+vendor/lib/libstagefright_softomx_plugin.so
+vendor/lib/libstagefright_soft_aacdec.so
+vendor/lib/libstagefright_soft_aacenc.so
+vendor/lib/libstagefright_soft_amrdec.so
+vendor/lib/libstagefright_soft_amrnbenc.so
+vendor/lib/libstagefright_soft_amrwbenc.so
+vendor/lib/libstagefright_soft_avcdec.so
+vendor/lib/libstagefright_soft_avcenc.so
+vendor/lib/libstagefright_soft_flacdec.so
+vendor/lib/libstagefright_soft_flacenc.so
+vendor/lib/libstagefright_soft_g711dec.so
+vendor/lib/libstagefright_soft_gsmdec.so
+vendor/lib/libstagefright_soft_hevcdec.so
+vendor/lib/libstagefright_soft_mp3dec.so
+vendor/lib/libstagefright_soft_mpeg4dec.so
+vendor/lib/libstagefright_soft_mpeg4enc.so
+vendor/lib/libstagefright_soft_opusdec.so
+vendor/lib/libstagefright_soft_rawdec.so
+vendor/lib/libstagefright_soft_vorbisdec.so
+vendor/lib/libstagefright_soft_vpxdec.so
+vendor/lib/libstagefright_soft_vpxenc.so
+vendor/lib/libvorbisidec.so
+vendor/lib/libvpx.so
+vendor/lib/libvulkan_enc.so
+vendor/lib/lib_renderControl_enc.so
+vendor/lib64/android.hardware.camera.provider@2.4-external.so
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
+vendor/lib64/android.hardware.graphics.composer@2.1-resources.so
+vendor/lib64/hw/gps.goldfish.so
+vendor/lib64/hw/gps.ranchu.so
+vendor/lib64/libandroidemu.so
+vendor/lib64/libcbmanager.so
+vendor/lib64/libGLESv1_enc.so
+vendor/lib64/libGLESv2_enc.so
+vendor/lib64/libgoldfish-ril.so
+vendor/lib64/libgoldfish_codecs_common.so
+vendor/lib64/libOpenglCodecCommon.so
+vendor/lib64/libOpenglSystemCommon.so
+vendor/lib64/libpcap.so
+vendor/lib64/libprotobuf-cpp-full-3.9.1.so
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib64/libsoft_attestation_cert.so
+vendor/lib64/libstagefright_goldfish_avcdec.so
+vendor/lib64/libstagefright_goldfish_vpxdec.so
+vendor/lib64/libvulkan_enc.so
+vendor/lib64/lib_profiler.so
+vendor/lib64/lib_renderControl_enc.so
